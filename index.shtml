@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Civic Punks!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+</head>
+<body class="w-full md:w-4/5 md:mx-auto otg-bg-color min-h-screen p-2 text-lg md:text-xl leading-relaxed">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:items-stretch">
+    <!-- Header -->
+    <!--#include virtual="/includes/header.html" -->
+
+    <!-- Content bubble -->
+    <main class="md:col-span-2">
+      <section class="p-8 rounded-2xl otg-bg-cell shadow">
+        <article class="w-full space-y-6">
+          <h1 class="text-3xl font-extrabold">What is One Team Gov</h1>
+
+          <section class="space-y-3">
+
+            <p class-"mt-2">One Team Gov is a global community of public servants, technologists, designers, and policy professionals committed to radically improving how government works. Founded in the UK in 2017, it grew out of the belief that government reform shouldn’t depend on hierarchy or permission—it should be driven by collaboration, openness, and experimentation. Its guiding idea is simple but powerful: when people across disciplines, departments, and countries work as one team, they can design better services and policies for the public good.</p>
+
+            <p class-"mt-2">The movement began with informal meetups and rapidly expanded into an international network spanning more than 40 countries. It champions principles such as working in the open, building diverse and inclusive teams, and focusing relentlessly on outcomes rather than bureaucracy. Members often share ideas and prototypes at “One Team Gov breakfasts,” workshops, and unconferences, where the emphasis is on action and practical problem-solving.</p>
+
+            <p class-"mt-2">Rather than a formal organisation, One Team Gov is a self-organising movement—anyone can start a local chapter, run an event, or contribute resources. Its influence can be seen in how governments now think about user-centred design, data-informed policy, and cross-sector collaboration. At its heart, it remains a hopeful, grassroots effort to make government more human, connected, and effective.</p>
+
+            <p class="mt-2">
+              <a href="mailto:contact@oneteamgov.org"target="_blank" class="underline underline-offset-2 hover:underline-offset-4">
+                Click here to get in touch!
+              </a>
+            </p>
+            
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <!--#include virtual="/includes/footer.html" -->
+  </div>
+</body>
+</html>
+
