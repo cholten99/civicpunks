@@ -1,0 +1,22 @@
+<footer class="col-span-full md:col-span-2 otg-bg-cell rounded-lg text-black">
+  <div class="max-w-6xl mx-auto px-4 py-6">
+    <h2 class="sr-only">Footer navigation</h2>
+
+    <!-- Links: 2 cols on mobile, 5 on desktop -->
+
+    <!-- Meta row: 5-col grid; pizza under column 5 -->
+    <div class="mt-6 border-t border-black/10 pt-4 md:flex md:items-center md:justify-between">
+      <p>© <span id="year"></span>One Team Gov</p>
+      <p class="whitespace-nowrap">Made with ChatGPT, 💖 & good people!</p>
+    </div>
+
+  </div>
+
+  <script>
+    (() => {
+      const y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
+    })();
+  </script>
+</footer>
+
